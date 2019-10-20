@@ -1,0 +1,9 @@
+1)echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
+ 
+2)git add .
+ 
+3)git commit -am "make it better"
+ 
+4)git push heroku master
+ 
+5)git add -f database/database.sqlite
