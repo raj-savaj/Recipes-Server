@@ -57,10 +57,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' =>'AKIAJFBY2RW4DVKM4VVQ',
-            'secret' => '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',
+            'key' =>'AKIAIQS4JBKFKGPFVTIA',
+            'secret' => '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',
             'region' => 'ap-south-1',
-            'bucket' => 'srdrecipes',
+            'bucket' => 'srdrecipes-1',
         ],
 
     ],

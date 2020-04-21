@@ -104,7 +104,7 @@
                 },
                 success:function(result){
                 var eng='',guj='',hindi='';
-                $(".im").html('<img style="height:200px !important;width:400px !important" src="https://s3.ap-south-1.amazonaws.com/srdrecipes/'+result[0].image+'"/>')
+                $(".im").html('<img style="height:200px !important;width:400px !important" src="{{ env('BUCKET_URL') }}'+result[0].image+'"/>')
                 guj +="<div><b>Menu : </b>"+result[0].ng+"</div>";
                 guj +="<div><b>Dish : </b>"+result[0].name_Gujrati+"</div>";
                 guj +="<div><b>Description : </b>"+result[0].discription_Gujrati+"</div>";

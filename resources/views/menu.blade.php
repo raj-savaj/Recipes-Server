@@ -80,7 +80,7 @@
                                     <td>{{ $Menu->name_Gujrati}}</td>
                                     <td>{{ $Menu->name_Hindi }}</td>
                                     <td>{{ $Menu->name_English }}</td>
-                                    <td><img style="width: 150px;height: auto" src="https://s3.ap-south-1.amazonaws.com/srdrecipes/{{  $Menu->image }}"></td>
+                                    <td><img style="width: 150px;height: auto" src="{{ env('BUCKET_URL') }}{{  $Menu->image }}"></td>
                                     <td>
                                         <div class="table-data-feature">
                                             <button class="item" data-toggle="tooltip" onclick="upd({{$Menu->id}})"  data-placement="top" title="" data-original-title="Edit">
